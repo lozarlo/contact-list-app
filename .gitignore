@@ -1,0 +1,14 @@
+# Compiled Java files
+bin/
+*.class
+
+# Eclipse files
+.settings/
+*.metadata
+*.project
+
+# Logs
+*.log
+
+# Tomcat build files
+*.war

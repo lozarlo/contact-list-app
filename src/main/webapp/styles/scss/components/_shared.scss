@@ -1,0 +1,42 @@
+@use "../utils/mixins" as *;
+@use "../utils/variables" as *;
+
+.title-bar {
+	@include flex-j-center-a-center;
+	padding: 1rem;
+
+	h1 {
+		font-weight: 600;
+		text-align: center;
+	}
+}
+
+.action-wrapper {
+	@include flex-j-evenly-a-center;
+	gap: 0.5rem;
+}
+
+.form-wrapper {
+	@include column-flex-j-center-a-center;
+	min-height: 100vh;
+	max-width: 60%;
+	margin: 0 auto;
+	padding: 2.5rem;
+}
+
+form {
+	width: 50%;
+	min-width: 315px;
+	max-width: 350px;
+	padding: 2.5rem;
+	background: $bg-card;
+	border-radius: 12px;
+	box-shadow: $shadow-card;
+}
+
+form input,
+form label {
+	display: block;
+	width: 100%;
+	margin-bottom: 1rem;
+}

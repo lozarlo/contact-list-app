@@ -1,0 +1,18 @@
+// btn colors
+$bg-add-btn: linear-gradient(135deg, #00ffa3, #1fd1f9);
+$bg-edit-btn: linear-gradient(135deg, rgb(0, 150, 255), rgb(137, 185, 223));
+$bg-delete-btn: linear-gradient(135deg, #d7382f, #e65447);
+
+// btn shadows
+$shadow-add-btn: 0 4px 20px rgba(0, 255, 163, 0.5);
+$shadow-edit-btn: 0 4px 20px rgba(212, 195, 255, 0.5);
+$shadow-delete-btn: 0 4px 20px rgba(255, 53, 94, 0.5);
+
+// btn hover
+$translate-hover: translateY(-2px);
+
+// card bg-color
+$bg-card: #f8fcfa;
+
+// card bg-shadows
+$shadow-card: 0 4px 12px rgba(0, 0, 0, 0.1);

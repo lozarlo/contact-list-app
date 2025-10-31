@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "sass": "sass src/main/webapp/styles/scss:src/main/webapp/styles/css",
+    "sass:watch": "sass --watch src/main/webapp/styles/scss:src/main/webapp/styles/css"
+  }
+}
